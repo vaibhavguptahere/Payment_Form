@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="CSS files/Payment Form.css">
+</head>
+<body>
+
+    <div class="container">
+
+<form action="">
+
+
+<h1 class="main_heading">PAYMENT FORM</h1>
+
+<hr>
+<hr>
+<h6 style="color: red;">Required fields are denoted by *</h6>
+
+
+
+
+
+<h2><ul>CONTACT INFORMATION</ul></h2>
+
+
+<p>
+    <b>NAME*:</b> <input type="text" name="NAME" required placeholder="Enter your name here">
+</p>
+
+
+<p>
+    <fieldset><legend><B>GENDER:</B></legend>
+   MALE <input type="radio" name="gender" id="">
+   FEMALE <input type="radio" name="gender" id="">
+   </fieldset>
+</p>
+
+
+<p>
+   <b>ADRESS*:</b> <textarea name="ADRESS" id="ADRESS"cols="70" rows="2" required placeholder="Enter your adress here"></textarea>
+</p>
+
+
+<p>
+   <b>EMAIL*:</b> <input type="email" name="email" id="email" required placeholder="Enter your email here">
+</p>
+
+
+<p>
+<b>PINCODE:</b> <input type="number" name="PINCODE" id="PINCODE" required placeholder="Enter area pincode here">
+
+</p>
+
+<hr>
+
+
+<h2><ul>PAYMENT INFORMATION</ul></h2>
+
+<p><b>CARD TYPE*:</b>
+     <select name="card_type" id="card_type" required>
+     <option value="">--Select a Card type</option>
+     <option value="VISA">VISA</option>
+     <option value="master card">Master Card</option>
+     <option value="rupay card">RUPAY</option>
+     <option value="credit card">Credit Card</option>
+    </select>
+</p>
+
+<p>
+<b>CARD NUMBER:</b> <input type="number" name="card_number" id="card_number" required placeholder="Enter your card no">
+</p>
+
+<p>
+    <b>CARD EXPIRY DATE:</b> <input type="date" name="date" id="date" required>
+</p>
+
+<p>
+    <b>CVV:</b> <input type="password" name="cvv" id="cvv" required>
+
+</p>
+
+
+
+
+<input type="submit" value="PAY NOW">
+
+<input type="reset" value="RESET">
+
+
+
+
+
+</form>
+</div>
+
+
+    
+</body>
+</html>
+
